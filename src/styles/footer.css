@@ -1,0 +1,41 @@
+.footer-container {
+    padding: 90px 20px;
+    text-align: center;
+    margin: 3%;
+    border-radius: 20px;
+  }
+  
+  .footer-title {
+    font-family: 'Balsamiq Sans';
+    font-weight: 700;
+    color: white;
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph-text {
+    font-family: 'Balsamiq Sans';
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    text-align: center !important;
+    
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    font-family: 'Balsamiq Sans';
+    font-weight: 700;
+    background-color: white;
+    color: #fed105;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 2%;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #f9e873;
+  }
+  

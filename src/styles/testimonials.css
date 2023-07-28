@@ -1,0 +1,61 @@
+
+
+.sliders {
+    width: 600px;
+}
+
+.swiper-slide{
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+.slide__img01 img, .slide__img02 img, .slide__img03 img{
+    width: 500px;
+    height: 500px;
+}
+
+.slide__img01{
+    background: #eeeaff;
+}
+.slide__img02{
+    background: #d3cef2;
+}
+.slide__img03{
+    background: darkgray;
+}
+
+.slide__img01, .slide__img02, .slide__img03{
+    border-radius: .8rem;
+    margin-bottom: 30px;
+}
+.slide__item h4{
+    margin-bottom: 10px;color: var(--heading-color);
+    font-weight: bold;
+    font-size: 2.2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ 
+.slide__item p{
+    line-height: 28px;
+    color: var(--heading-color);
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.sliders h2{
+    font-size: 3.5rem;
+    background-image: linear-gradient(to right, #ff0000, #7c0202, #3b0000); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent; /* For Safari */
+    background-clip: text;
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: 5px solid #7c0202;
+    margin-bottom: 5%;
+}

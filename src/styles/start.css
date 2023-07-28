@@ -1,0 +1,25 @@
+.brands{
+    display: flex;
+    margin-left: 170%;
+    width: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10%;
+}
+.brands img{
+    width: 80%;
+}
+@media only screen and (max-width:768px) {
+    .brands{
+        flex-wrap: wrap !important;
+        margin-left: 5%;
+        gap: 0 !important;
+        margin-top: 10%;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .expert_h1{
+        font-size: 30px !important;
+        text-align: center;
+    }
+}
