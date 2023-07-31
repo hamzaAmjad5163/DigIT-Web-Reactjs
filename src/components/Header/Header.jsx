@@ -15,6 +15,9 @@ const nav__links = [
         path:'#pricing-plane',
         display: 'Services'
     },
+    {
+        path: 'contactUs'
+    }
 
 ]
 

@@ -2,8 +2,11 @@ import React from 'react';
 import '../../styles/footer.css';
 import { Link } from 'react-router-dom';
 
+
 const FooterContainer = () => {
   return (
+    <>
+    
     <div id='contact'>
     <div className='footer-container' style={{ backgroundColor: '#fed105' }}>
       <div className='centered-text'>
@@ -16,7 +19,7 @@ const FooterContainer = () => {
         now for a consultation and discover how we can help your business thrive.
       </p>
       <button className='contact-button'>
-        <Link to='/contactUs' >Contact Us</Link>
+        <Link to='/contactUs'>Contact Us</Link>
       </button>
     </div>
     <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
@@ -24,6 +27,7 @@ const FooterContainer = () => {
         <h5 style={{borderTop:'1px solid black', width:'100%', textAlign:'center', fontSize:'15px',padding:'1%'}}>Copyrights @ Hamza Amjad (Private LIMITED) | All Rights Reserved</h5>
     </div>
     </div>
+    </>
   );
 };
 

@@ -7,15 +7,15 @@ import Pricing from '../components/Ui/Pricing';
 import About from '../components/Ui/About';
 const Routers = () => {
     return ( 
-       <> 
-    <Hero />
-    <About />
-    <Expertise />
-    <Testimonials />
-    <Pricing />
-    <Routes>
-        <Route exact path='contactUs' element={<Contact/>}/>
-    </Routes>
+    <> 
+        <Hero />
+        <About />
+        <Expertise />
+        <Testimonials />
+        <Pricing />
+        <Routes>
+            <Route exact path='contactUs' element={<Contact />}/>
+        </Routes>
     </>
     );
 };
