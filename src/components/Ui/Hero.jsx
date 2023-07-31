@@ -10,8 +10,8 @@ const Hero = () => {
         <Row>
           <Col lg='6' md='6'>
             <div className='hero__content' data-aos='fade-up' data-aos-duration='2000'>
-              <h2 style={{fontFamily: 'Frijole, cursive', color:'#fed105',alignItems:"center",justifyContent:'center',marginTop:'15%'}}>Paving the Digital highway to success</h2>
-              <p style={{fontFamily:'Balsamiq Sans, cursive'}}>Where extraordinary ideas take flight, and ordinary is left behind in the rearview mirror. Welcome to our digital agency, where we turn imagination into realization, one byte at a time.</p>
+              <h2 style={{fontFamily: 'Frijole, cursive', color:'#fed105',alignItems:"center",justifyContent:'center',marginTop:'15%', fontWeight:'500'}}>Paving the Digital highway to success</h2>
+              <p style={{fontFamily:'Balsamiq Sans, cursive', color:'gray'}}>Where extraordinary ideas take flight, and ordinary is left behind in the rearview mirror. Welcome to our digital agency, where we turn imagination into realization, one byte at a time.</p>
               
             </div>
           </Col>
